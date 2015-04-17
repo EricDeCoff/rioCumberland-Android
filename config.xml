@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
     <widget xmlns = "http://www.w3.org/ns/widgets" 
         xmlns:gap = "http://phonegap.com/ns/1.0"
-		id = "com.ericdecoff.tmc"
-		version = "3.7.0"
-		versionCode = "370">
+		id = "com.ericdecoff.rio.grande.cumberland"
+		version = "1.0.0"
+		versionCode = "100">
 
-    <name>Temple Medical</name>
+    <name>Rio Grande Cumberland</name>
 
     <description>
- 	   Temple Medical Clinic	
+ 	   Rio Grande Cumberland
     </description>
 
     <author href="http://ericdecoff.com" email="ericdecoff@gmail.com">Eric DeCoff</author>
