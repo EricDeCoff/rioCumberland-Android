@@ -209,3 +209,58 @@ h3{
 #serving{
     min-height: 3000px;
 }
+
+// Pinterest
+.btn-pinterest, .icon-pinterest-sign{
+    color: #910101;
+}
+
+// Facebook
+.btn-facebook, .icon-facebook-sign{
+    color: #3b5998;
+}
+
+// Twitter
+.icon-twitter, .icon-twitter-sign{
+    color: #00a0d1;
+}
+
+// Vimeo (blue)
+.icon-vimeo, .icon-vimeo-sign{
+    color: #44bbff;
+}
+
+// Vimeo (green)
+.icon-vimeo.alt-color, .icon-vimeo-sign.alt-color{
+    color: #aad450;
+}
+
+// Tumblr
+.icon-tumblr, .icon-tumblr-sign{
+    color: #34526f;
+}
+
+// Youtube
+.icon-youtube, .icon-youtube-sign{
+    color: #c4302b;
+}
+
+// LinkedIn
+.icon-linkedin, .icon-linkedin-sign{
+    color: #4875B4;
+}
+
+// Google +
+.icon-google-plus, .icon-google-plus-sign{
+    color: #C63D2D;
+}
+
+// Foursquare
+.icon-foursquare, .icon-foursquare-sign{
+    color: #8FD400;
+}
+
+// Instagram
+.icon-instagram, .icon-instagram-sign{
+    color: #4E433C;
+}
