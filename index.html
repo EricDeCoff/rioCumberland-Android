@@ -15,7 +15,7 @@
     <!--Font-Awesome -->
     <link rel="stylesheet" href="./fa/css/font-awesome.css">
       
-    <link rel="stylesheet" href="./css/style.min-46cc7995.css">
+    <link rel="stylesheet" href="./css/style.min-d18f010a.css">
     
     <link href="./fonts/Holtwood_One_SC/HoltwoodOneSC.css" rel="stylesheet">    
 </head>
@@ -34,9 +34,24 @@
     </div>    
     <div id="footer">
             <div class="container">
+                    <div class="pull-left">
+                        <a class="btn btn-default btn-facebook"
+                           onclick="window.plugins.socialsharing.share('Message only')">
+                            <i class="fa fa-facebook-official fa-2x icon-facebook"></i>
+                        </a>
+                    </div>
+                    <div class="pull-right">
+                        <a class="btn btn-default btn-twitter">
+                            <i class="fa fa-twitter fa-2x icon-twitter"></i>
+                        </a>
+                    </div>
                     <div class="centered temple">
+<!--
+<button onclick="window.plugins.socialsharing.share('Message only')">message only</button>
+-->
                         <b><address class='footer_address'></address></b>
                     </div>
+                    
             </div>
     </div>        
         
@@ -61,6 +76,7 @@
     <script type="text/javascript" src="device.js"></script>
     <script type="text/javascript" src="inappbrowser.js"></script>
     <script type="text/javascript" src="PushWooshNotification.js"></script>
+    <script type="text/javascript" src="SocialSharing.js"></script>
     <script type="text/javascript" data-main="js/config" src="js/libs/require.js"></script>    
 </body>
 </html>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
     <widget xmlns = "http://www.w3.org/ns/widgets" 
         xmlns:gap = "http://phonegap.com/ns/1.0"
-		id = "com.ericdecoff.rio.grande.cumberland"
+		id = "com.ericdecoff.rio-cumberland"
 		version = "1.0.0"
 		versionCode = "100">
 
@@ -22,6 +22,8 @@
     <gap:plugin name="org.apache.cordova.vibration" />
     <gap:plugin name="de.appplant.cordova.plugin.email-composer" /> <!-- email-composer plugin -->       
     <gap:plugin name="com.pushwoosh.plugins.pushwoosh" />
+    <gap:plugin name="nl.x-services.plugins.socialsharing" />
+
         
     <!-- ICONS -->
         

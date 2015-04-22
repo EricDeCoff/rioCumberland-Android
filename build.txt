@@ -23,6 +23,10 @@ css/screen.css
 ----------------
 css/screen.css
 
+css/social.css
+----------------
+css/social.css
+
 css/sticky-footer-navbar.css
 ----------------
 css/sticky-footer-navbar.css
