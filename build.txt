@@ -3,6 +3,10 @@ css/bootstrap.min.css
 ----------------
 css/bootstrap.min.css
 
+css/home.css
+----------------
+css/home.css
+
 css/index.css
 ----------------
 css/index.css
@@ -79,5 +83,8 @@ js/pages/about/ajaxAbout.js
 js/pages/about/about.js
 js/pages/staff/ajaxStaff.js
 js/pages/staff/staff.js
+js/pages/footer/footer.js
+js/pages/share/share.js
 js/utils/pushWooshHandler.js
+js/utils/socialSharingHandler.js
 js/app.js

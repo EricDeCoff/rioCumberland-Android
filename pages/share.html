@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<link href="http://fonts.googleapis.com/css?family=Corben:bold" rel="stylesheet" type="text/css">
+<style>
+    h1,h2,h3,h4,h5,h6{
+        font-family: 'Corben', Georgia, Times, serif;
+    }
+    .btn-border{
+        border: 12px solid #000;
+        border-radius: 12px;
+    }
+    .absolute-center{
+/*           
+        top: 50% !important;
+        left: 50% !important;
+        margin: auto!important;
+        position: absolute;
+        padding: 10px;
+        top: 0; left: 0; right: 0; bottom: 0;
+*/        
+    }
+    .share-wrapper{
+        padding-top: 100px;
+        text-align: center;
+        height: 100% !important;
+    }
+@media screen and (orientation: portrait){
+    .share-wrapper{
+        padding-top: 33%;
+    }
+} 
+@media screen and (orientation: landscape){
+    .share-wrapper{
+        padding-top: 11%;
+} 
+    
+</style>
+<div id="ourShare">
+    <div class="share-wrapper">
+    <div class="absolute-center">
+        <a id="shareGetPicture" class="pull-left btn btn-default btn-border">
+            <center>
+                <div class="">
+                    <span class="fa fa-picture-o fa-5x"></span>
+                </div>
+            </center>
+        </a>
+        <a id="shareTakePicture" class="pull-right btn btn-default btn-border">
+            <center>
+                <div class="">
+                    <span class="fa fa-camera fa-5x"></span>
+                </div>
+            </center>
+        </a>
+        <center>
+        <a id="shareTextOnly" class="pull-center btn btn-default btn-border">
+            <h3>
+                Text
+                <br>
+                <span style="line-height: 1.75em">&nbsp;</span>
+                Only
+            </h3></a>
+        </center>
+    </div>
+    </div>
+</div>

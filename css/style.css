@@ -144,7 +144,7 @@ h3{
     .landscape{
         display: none ! important;
     }
-    .portrait{
+    #homeImages.portrait{
         display: inline ! important;
     }
     .portrait-xs{
