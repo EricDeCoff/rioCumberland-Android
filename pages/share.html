@@ -23,6 +23,23 @@
         text-align: center;
         height: 100% !important;
     }
+    .fa-picture-stack{
+        position: absolute;
+        top: .5em;
+        left: .33em;
+        width: 100%;
+        text-align: center;
+    }
+    .fa-ban-stack{
+        position: absolute;
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .fa-8x{
+        font-size: 10em;
+    }
+    
 @media screen and (orientation: portrait){
     .share-wrapper{
         padding-top: 33%;
@@ -51,15 +68,17 @@
                 </div>
             </center>
         </a>
-        <center>
-        <a id="shareTextOnly" class="pull-center btn btn-default btn-border">
-            <h3>
-                Text
-                <br>
-                <span style="line-height: 1.75em">&nbsp;</span>
-                Only
-            </h3></a>
-        </center>
+        <a id="shareTextOnly" class="pull-center">
+            <center>
+                <div class="">
+            <span class="fa-stack">
+                <i class="fa fa-picture-o fa-5x fa-picture-stack"></i>
+                <i class="fa fa-ban fa-8x text-danger fa-ban-stack"></i>
+            </span>
+
+                </div>
+            </center>
+        </a>
     </div>
     </div>
 </div>
