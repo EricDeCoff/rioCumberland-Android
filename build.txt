@@ -87,4 +87,6 @@ js/pages/footer/footer.js
 js/pages/share/share.js
 js/utils/pushWooshHandler.js
 js/utils/socialSharingHandler.js
+js/noPhoto.js
+js/utils/mobileShare.js
 js/app.js

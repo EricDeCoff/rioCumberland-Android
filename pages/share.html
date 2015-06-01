@@ -4,81 +4,77 @@
     h1,h2,h3,h4,h5,h6{
         font-family: 'Corben', Georgia, Times, serif;
     }
-    .btn-border{
-        border: 12px solid #000;
-        border-radius: 12px;
-    }
-    .absolute-center{
-/*           
-        top: 50% !important;
-        left: 50% !important;
-        margin: auto!important;
-        position: absolute;
-        padding: 10px;
-        top: 0; left: 0; right: 0; bottom: 0;
-*/        
-    }
     .share-wrapper{
-        padding-top: 100px;
         text-align: center;
         height: 100% !important;
     }
-    .fa-picture-stack{
-        position: absolute;
-        top: .5em;
-        left: .33em;
-        width: 100%;
-        text-align: center;
+    a { }
+/* iPad */
+@media screen and (min-device-width : 768px) and (max-device-width : 1024px) {     
+    .fa-5x { 
+        font-size: 10em 
     }
-    .fa-ban-stack{
-        position: absolute;
-        left: 0;
-        width: 100%;
-        text-align: center;
-    }
-    .fa-8x{
-        font-size: 10em;
-    }
+}
+/* iPad Retina */
+@media screen and (min-device-width : 768px) and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 2) { 
+    .fa-5x { 
+        font-size: 10em; 
+    } 
+}
+[class^="fa-"].fa-spacer, [class*=" fa-"].fa-spacer {
+    padding: 10px;
+}
     
+/*    
 @media screen and (orientation: portrait){
-    .share-wrapper{
-        padding-top: 33%;
+    .fa-5x { 
+        font-size: 5em; 
     }
-} 
-@media screen and (orientation: landscape){
-    .share-wrapper{
-        padding-top: 11%;
-} 
-    
+}
+*/
 </style>
 <div id="ourShare">
     <div class="share-wrapper">
-    <div class="absolute-center">
-        <a id="shareGetPicture" class="pull-left btn btn-default btn-border">
-            <center>
-                <div class="">
-                    <span class="fa fa-picture-o fa-5x"></span>
+        <div id="getPhoto" class="center">
+            <a id="shareGetPhoto" class="">
+                <div class="fa-stack fa-5x">
+                    <span class="fa fa-picture-o fa-stack-1x"></span>
                 </div>
-            </center>
-        </a>
-        <a id="shareTakePicture" class="pull-right btn btn-default btn-border">
-            <center>
-                <div class="">
-                    <span class="fa fa-camera fa-5x"></span>
+            </a>
+            <a id="shareTextOnly" class="">
+                <div class="fa-stack fa-5x">
+                    <i class="fa fa-picture-o fa-stack-1x"></i>
+                    <i class="fa fa-ban text-danger fa-stack-1x"></i>
                 </div>
-            </center>
-        </a>
-        <a id="shareTextOnly" class="pull-center">
-            <center>
-                <div class="">
-            <span class="fa-stack">
-                <i class="fa fa-picture-o fa-5x fa-picture-stack"></i>
-                <i class="fa fa-ban fa-8x text-danger fa-ban-stack"></i>
-            </span>
-
+            </a>
+            <a id="shareTakePhoto" class="">
+                <div class="fa-stack fa-5x">
+                    <span class="fa fa-camera fa-stack-1x"></span>
                 </div>
-            </center>
-        </a>
-    </div>
+            </a>
+        </div>
+        <div id="shareImagePortaitDiv" class="portrait">
+            <img id="shareImagePortrait" />
+            <div class="social-bar">
+            <textarea id="shareMessage" placeholder="Message Goes Here"></textarea>
+            <br/>
+            <i class="fa fa-spacer fa-facebook-square fa-3x"></i>
+            <i class="fa fa-spacer fa-wechat fa-3x"></i>
+            <i class="fa fa-spacer fa-at fa-3x"></i>
+            <i class="fa fa-spacer fa-twitter-square fa-3x"></i>
+            </div>                
+        </div>
+        <div id="shareImageLandscapeDiv" class="landscape">
+            <img id="shareImageLandscape" class="col-xs-4" />
+            <div class="social-bar col-xs-8">
+            <textarea id="shareMessage" placeholder="Message Goes Here"></textarea>
+            <br/>
+            <i class="fa fa-spacer fa-facebook-square fa-3x"></i>
+            <i class="fa fa-spacer fa-wechat fa-3x"></i>
+            <i class="fa fa-spacer fa-at fa-3x"></i>
+            <i class="fa fa-spacer fa-twitter-square fa-3x"></i>
+            </div>                
+        </div>
     </div>
 </div>

@@ -210,57 +210,36 @@ h3{
     min-height: 3000px;
 }
 
-// Pinterest
-.btn-pinterest, .icon-pinterest-sign{
-    color: #910101;
+.fa-facebook, .fa-facebook-square {
+    color: #3b5998
 }
-
-// Facebook
-.btn-facebook, .icon-facebook-sign{
-    color: #3b5998;
+.fa-twitter, .fa-twitter-square {
+    color: #00aced
 }
-
-// Twitter
-.icon-twitter, .icon-twitter-sign{
-    color: #00a0d1;
+.fa-google-plus, .fa-google-plus-square {
+    color: #dd4b39
 }
-
-// Vimeo (blue)
-.icon-vimeo, .icon-vimeo-sign{
-    color: #44bbff;
+.fa-youtube, .fa-youtube-play, .fa-youtube-square {
+    color: #bb0000
 }
-
-// Vimeo (green)
-.icon-vimeo.alt-color, .icon-vimeo-sign.alt-color{
-    color: #aad450;
+.fa-tumblr, .fa-tumblr-square {
+    color: #32506d
 }
-
-// Tumblr
-.icon-tumblr, .icon-tumblr-sign{
-    color: #34526f;
+.fa-vine {
+    color: #00bf8f
 }
-
-// Youtube
-.icon-youtube, .icon-youtube-sign{
-    color: #c4302b;
+.fa-flickr {
+    color: #ff0084
 }
-
-// LinkedIn
-.icon-linkedin, .icon-linkedin-sign{
-    color: #4875B4;
+.fa-vimeo-square {
+    color: #aad450
 }
-
-// Google +
-.icon-google-plus, .icon-google-plus-sign{
-    color: #C63D2D;
+.fa-pinterest, .fa-pinterest-square {
+    color: #cb2027
 }
-
-// Foursquare
-.icon-foursquare, .icon-foursquare-sign{
-    color: #8FD400;
+.fa-linkedin, .fa-linkedin-square {
+    color: #007bb6
 }
-
-// Instagram
-.icon-instagram, .icon-instagram-sign{
-    color: #4E433C;
+.fa-instagram {
+    color: #517fa4;
 }
