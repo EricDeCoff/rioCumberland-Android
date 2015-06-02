@@ -19,10 +19,6 @@ css/navbar-phone.css
 ----------------
 css/navbar-phone.css
 
-css/portrait_landscape.css
-----------------
-css/portrait_landscape.css
-
 css/screen.css
 ----------------
 css/screen.css
@@ -34,6 +30,10 @@ css/social.css
 css/sticky-footer-navbar.css
 ----------------
 css/sticky-footer-navbar.css
+
+css/_portrait_landscape.css
+----------------
+css/_portrait_landscape.css
 
 css/_screen.css
 ----------------
