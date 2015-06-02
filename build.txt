@@ -15,6 +15,18 @@ css/navbar-phone.css
 ----------------
 css/navbar-phone.css
 
+css/removed/_index.css
+----------------
+css/removed/_index.css
+
+css/removed/_portrait_landscape.css
+----------------
+css/removed/_portrait_landscape.css
+
+css/removed/_screen.css
+----------------
+css/removed/_screen.css
+
 css/screen.css
 ----------------
 css/screen.css
@@ -26,18 +38,6 @@ css/social.css
 css/sticky-footer-navbar.css
 ----------------
 css/sticky-footer-navbar.css
-
-css/_index.css
-----------------
-css/_index.css
-
-css/_portrait_landscape.css
-----------------
-css/_portrait_landscape.css
-
-css/_screen.css
-----------------
-css/_screen.css
 
 fa/css/font-awesome.css
 ----------------
