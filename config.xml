@@ -14,13 +14,12 @@
     <author href="http://ericdecoff.com" email="ericdecoff@gmail.com">Eric DeCoff</author>
 
 	<!-- Plugins -->
-
         
 	<gap:plugin name="org.apache.cordova.camera" />
-	<gap:plugin name="org.apache.cordova.media-capture" />
 	<gap:plugin name="org.apache.cordova.device" />
-    <gap:plugin name="org.apache.cordova.device-orientation" />
     <gap:plugin name="org.apache.cordova.file" />
+        
+    <gap:plugin name="org.apache.cordova.console" />
         
 	<gap:plugin name="org.apache.cordova.media" />
 	<gap:plugin name="org.apache.cordova.inappbrowser" />        
@@ -128,6 +127,46 @@
     <!-- PHONEGAP API FEATURES PREFERENCES -->
         
     <preference name="permissions" value="none"/>
+        
+    <!-- CAMERA FEATURE -->
+    
+    <!--
+    <feature name="http://api.phonegap.com/1.0/camera"/>
+    <feature name="http://api.phonegap.com/1.0/battery"/>
+    <feature name="http://api.phonegap.com/1.0/contacts"/>
+    <feature name="http://api.phonegap.com/1.0/file"/>
+    <feature name="http://api.phonegap.com/1.0/geolocation"/>
+    <feature name="http://api.phonegap.com/1.0/media"/>
+    <feature name="http://api.phonegap.com/1.0/network"/>
+    <feature name="http://api.phonegap.com/1.0/notification"/>
+    -->
+
+    <access origin="*" />
+
+</widget>
+name="webviewbounce" value="false" />
+    <preference name="stay-in-webview" value="false" />
+    <preference name="show-splash-screen-spinner" value="false" />
+    <preference name="auto-hide-splash-screen" value="true" /> <!-- if set to false, the splash screen must be hidden using a JavaScript API -->
+        
+    <!-- ANDROID PREFERENCES -->
+        
+    <preference name="android-minSdkVersion" value="7" /> <!-- minimum Android 2.1 -->
+    <!-- <preference name="android-maxSdkVersion" value="19" /> maximum Android 4.4 -->
+    <preference name="android-targetSdkVersion" value="19" /> <!-- targeting Android 4.4 -->
+    <preference name="android-installLocation" value="auto" />
+    <preference name="android-windowSoftInputMode" value="stateHidden|adjustResize" />
+    <preference name="SplashScreenDelay" value="5000" />
+
+    <preference name="load-url-timeout" value="20000" />
+        
+    <!-- PHONEGAP API FEATURES PREFERENCES -->
+        
+    <preference name="permissions" value="none"/>
+        
+    <!-- CAMERA FEATURE -->
+<feature name="Camera"><param name="android-package" value="org.apache.cordova.camera.CameraLauncher" /></feature>
+    
     
     <!--
     <feature name="http://api.phonegap.com/1.0/camera"/>

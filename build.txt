@@ -55,6 +55,10 @@ spec/lib/jasmine-1.2.0/jasmine.css
 ----------------
 spec/lib/jasmine-1.2.0/jasmine.css
 
+style.min.3e7cb7d1.css
+----------------
+style.min.3e7cb7d1.css
+
 js/app.js
 ----------------
 js/libs/jquery-2.1.1.min.js
