@@ -7,6 +7,10 @@ css/home.css
 ----------------
 css/home.css
 
+css/jquery.alerts.css
+----------------
+css/jquery.alerts.css
+
 css/navbar-fixed-top.css
 ----------------
 css/navbar-fixed-top.css
