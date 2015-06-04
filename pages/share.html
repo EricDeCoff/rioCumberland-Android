@@ -25,49 +25,14 @@ and (-webkit-min-device-pixel-ratio: 2) {
 [class^="fa-"].fa-spacer, [class*=" fa-"].fa-spacer {
     padding: 10px;
 }
-.fa-spin-works{
-    -webkit-animation: spin-sp 2s infinite linear;
-    -moz-animation: spin-sp 2s infinite linear;
-    -o-animation: spin-sp 2s infinite linear;
-    animation: spin-sp 2s infinite linear;
-}
-@-moz-keyframes spin-works {
-    0% {
-        -moz-transform: translate3d(0, 0, 0) rotate(-0.001deg);
-    }
-    100% {
-        -moz-transform: translate3d(0, 0, 0) rotate(358.999deg) ;
-    }
-}
-@-webkit-keyframes spin-works {
-    0% {
-        padding-top: 2px;
-        -webkit-transform: rotate3d(0, 0, 1, 0.001deg);
 
-    }
-    100% {
-        padding-top: 2px;
-        -webkit-transform: rotate3d(0, 0, 1, 360.001deg);
-    }
+#shareImageLandscape{
+    border: 1px solid;
 }
-@-o-keyframes spin-works {
-    0% {
-        -o-transform: rotate(0deg);
-    }
-    100% {
-        -o-transform: rotate(359deg);
-    }
-}
-@keyframes spin-works {
-    0% {
-        transform: translate3d(0, 0, 0) rotate(-0.001deg);
-    }
-    100% {
-        transform: translate3d(0, 0, 0) rotate(360.001deg);
-    }
-}
-
-    
+/* overrides bootstrap align top */
+.table tbody>tr>td.table-vert-align-middle{
+    vertical-align: middle;
+}    
 /*    
 @media screen and (orientation: portrait){
     .fa-5x { 
@@ -97,7 +62,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
             </a>
         </div>
         <div id="shareImagePortaitDiv" class="">
-            <table class="table tabled-bordered">
+            <table class="table tabled-bordered portrait">
                 <tr>
                     <td class="table-bordered">
                         <div class="fa-stack fa-2x">
@@ -125,7 +90,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
                         </div>
                     </td>
                     <td class="table-bordered">
-            <textarea id="shareMessage" placeholder="Message Goes Here" class="pull-center"></textarea>
+                        <textarea id="shareMessage" rows="5" 
+                                  placeholder="Message Goes Here" class="pull-center">
+                        </textarea>
                     </td>
                     <td class="table-bordered">
                         <div class="fa-stack fa-2x">
@@ -133,8 +100,51 @@ and (-webkit-min-device-pixel-ratio: 2) {
                             <i class="fa fa-stack-1x" style="color:white"></i>
                         </div>
                 </tr>
-                <tr><td colspan="3">&nbsp</td></tr>
-                <tr><td colspan="3">&nbsp</td></tr>
+            </table>
+            <table class="table tabled-bordered landscape">
+                <tr class="table-bordered">
+                    <td rowspan="3" class="table-bordered table-vert-align-middle">
+                        <img id="shareImageLandscape" class="img-responsive"/>
+                    </td>
+                    <td rowspan="3" class="table-bordered table-vert-align-middle">
+                        <textarea id="shareMessage" rows="6" 
+                                  placeholder="Message Goes Here" class="pull-center">
+                        </textarea>
+                    </td>
+                    <td rowspan="3" class="table-bordered table-vert-align-middle">
+                        <table class="table tabled-bordered table-vert-align-middle">
+                            <tr rowspan="3">
+                                <td class="table-bordered">
+                                    <div class="fa-stack fa-2x">
+                                        <i class="fa fa-facebook-square fa-stack-2x"></i>
+                                        <i class="fa fa-stack-1x" style="color:white"></i>
+                                    </div>
+                                </td>
+                                <td class="table-bordered">
+                                    <div class="fa-stack fa-2x">
+                                        <i class="fa fa-at fa-stack-2x"></i>
+                                        <i class="fa fa-stack-1x" style="color:white"></i>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="table-bordered">
+                                    <div class="fa-stack fa-2x">
+                                        <i class="fa fa-twitter-square fa-stack-2x"></i>
+                                        <i class="fa fa-stack-1x" style="color:white"></i>
+                                    </div>
+                                </td>
+                                <td class="table-bordered">
+                                    <div class="fa-stack fa-2x">
+                                        <i class="fa fa-comment fa-stack-2x"></i>
+                                        <i class="fa fa-stack-1x" style="color:white">TM</i>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        </div>                            
+                    </td>
+                </tr>
             </table>
             <!--
             <span class="col-xs-2 table-bordered">
