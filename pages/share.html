@@ -25,6 +25,48 @@ and (-webkit-min-device-pixel-ratio: 2) {
 [class^="fa-"].fa-spacer, [class*=" fa-"].fa-spacer {
     padding: 10px;
 }
+.fa-spin-works{
+    -webkit-animation: spin-sp 2s infinite linear;
+    -moz-animation: spin-sp 2s infinite linear;
+    -o-animation: spin-sp 2s infinite linear;
+    animation: spin-sp 2s infinite linear;
+}
+@-moz-keyframes spin-works {
+    0% {
+        -moz-transform: translate3d(0, 0, 0) rotate(-0.001deg);
+    }
+    100% {
+        -moz-transform: translate3d(0, 0, 0) rotate(358.999deg) ;
+    }
+}
+@-webkit-keyframes spin-works {
+    0% {
+        padding-top: 2px;
+        -webkit-transform: rotate3d(0, 0, 1, 0.001deg);
+
+    }
+    100% {
+        padding-top: 2px;
+        -webkit-transform: rotate3d(0, 0, 1, 360.001deg);
+    }
+}
+@-o-keyframes spin-works {
+    0% {
+        -o-transform: rotate(0deg);
+    }
+    100% {
+        -o-transform: rotate(359deg);
+    }
+}
+@keyframes spin-works {
+    0% {
+        transform: translate3d(0, 0, 0) rotate(-0.001deg);
+    }
+    100% {
+        transform: translate3d(0, 0, 0) rotate(360.001deg);
+    }
+}
+
     
 /*    
 @media screen and (orientation: portrait){
@@ -38,8 +80,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
     <div class="share-wrapper">
         <div id="getPhoto" class="center">
             <a id="shareGetPhoto" class="">
-                <div class="fa-stack fa-5x">
-                    <span class="fa fa-picture-o fa-stack-1x"></span>
+                <div id="spin-get-photo" class="fa-stack fa-5x">
+                    <span id="span-get-photo" class="fa fa-picture-o fa-stack-1x"></span>
                 </div>
             </a>
             <a id="shareTextOnly" class="">
@@ -49,7 +91,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
                 </div>
             </a>
             <a id="shareTakePhoto" class="">
-                <div class="fa-stack fa-5x">
+                <div id="spin-take-photo" class="fa-stack fa-5x">
                     <span class="fa fa-camera fa-stack-1x"></span>
                 </div>
             </a>
