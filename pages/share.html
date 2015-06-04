@@ -54,10 +54,39 @@ and (-webkit-min-device-pixel-ratio: 2) {
                 </div>
             </a>
         </div>
-        <div id="shareImagePortaitDiv" class="portrait">
-            <span class="col-xs-2"/>
-            <img id="shareImagePortrait" class="col-xs-8"/>
-            <span class="col-xs-2"/>
+        <div id="shareImagePortaitDiv" class="">
+            <table class="table tabled-bordered">
+                <tr>
+                    <td class="table-bordered"><i class="fa fa-wechat fa-3x"></i></td>
+                    <td rowspan="3" class="table-bordered">
+                        <img id="shareImagePortrait" class="img-responsive"/>
+                    </td>
+                    <td class="table-bordered"><i class="fa fa-at fa-3x"></i></td>
+                </tr>
+                <tr></tr>
+                <tr></tr>
+                <tr>
+                    <td class="table-bordered"><i class="fa fa-facebook-square fa-3x"></i></td>
+                    <td class="table-bordered">
+            <textarea id="shareMessage" placeholder="Message Goes Here" class="pull-center"></textarea>
+                    </td>
+                    <td class="table-bordered"><i class="fa fa-twitter-square fa-3x"></i></td>
+                </tr>
+                <tr></tr>
+                <tr></tr>
+            </table>
+            <!--
+            <span class="col-xs-2 table-bordered">
+            <i class="fa fa-facebook-square fa-3x"></i>
+            <br/>
+            <i class="fa fa-wechat fa-3x"></i>
+            </span>
+            <img id="shareImagePortrait" class="col-xs-7 table-bordered"/>
+            <span class="col-xs-2 table-bordered">
+            <i class="pull-left fa fa-twitter-square fa-3x"></i>
+            <br/>
+            <i class="fa fa-at fa-3x"></i>
+            </span>
             <div class="social-bar">
             <textarea id="shareMessage" placeholder="Message Goes Here" class="pull-center"></textarea>
             <br/>
@@ -66,7 +95,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
             <i class="fa fa-spacer fa-at fa-3x"></i>
             <i class="fa fa-spacer fa-twitter-square fa-3x"></i>
             </div>                
+            -->
         </div>
+        <!--
         <div id="shareImageLandscapeDiv" class="landscape">
             <img id="shareImageLandscape" class="col-xs-4" />
             <div class="social-bar col-xs-8">
@@ -78,5 +109,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
             <i class="fa fa-spacer fa-twitter-square fa-3x"></i>
             </div>                
         </div>
+        -->
     </div>
 </div>
