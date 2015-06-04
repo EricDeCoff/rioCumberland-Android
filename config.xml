@@ -129,11 +129,9 @@
     <preference name="load-url-timeout" value="20000" />
         
     <!-- PHONEGAP API FEATURES PREFERENCES -->
-
+<!--
     <preference name="permissions" value="none"/>
         
-    <!-- CAMERA FEATURE GOES HERE -->
-    <!-- SOCIAL SHARING FEATURE GOES HERE -->
     
     <feature name="http://api.phonegap.com/1.0/camera"/>
     <feature name="http://api.phonegap.com/1.0/battery"/>
@@ -143,7 +141,10 @@
     <feature name="http://api.phonegap.com/1.0/media"/>
     <feature name="http://api.phonegap.com/1.0/network"/>
     <feature name="http://api.phonegap.com/1.0/notification"/>
-
+-->
+    <!-- CAMERA FEATURE GOES HERE -->
+    <!-- SOCIAL SHARING FEATURE GOES HERE -->
+        
     <access origin="*" />
 
 </widget>
