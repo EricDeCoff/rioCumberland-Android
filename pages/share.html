@@ -65,10 +65,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
             <table class="table tabled-bordered portrait">
                 <tr>
                     <td class="table-bordered">
-                        <div class="fa-stack fa-2x">
-                            <i class="fa fa-comment fa-stack-2x"></i>
-                            <i class="fa fa-stack-1x" style="color:white">TM</i>
-                        </div>
+                            <div class="fa-stack fa-2x">
+                                <i class="fa fa-comment fa-stack-2x"></i>
+                                <i class="fa fa-stack-1x" style="color:white">TM</i>
+                            </div>
                     </td>
                     <td rowspan="3" class="table-bordered">
                         <img id="shareImagePortrait" class="img-responsive"/>
@@ -84,13 +84,15 @@ and (-webkit-min-device-pixel-ratio: 2) {
                 <tr></tr>
                 <tr>
                     <td class="table-bordered">
-                        <div class="fa-stack fa-2x">
-                            <i class="fa fa-facebook-square fa-stack-2x"></i>
-                            <i class="fa fa-stack-1x" style="color:white"></i>
-                        </div>
+                        <a id="btn-fb-portrait">
+                            <div class="fa-stack fa-2x">
+                                <i class="fa fa-facebook-square fa-stack-2x"></i>
+                                <i class="fa fa-stack-1x" style="color:white"></i>
+                            </div>
+                        </a>
                     </td>
                     <td class="table-bordered">
-                        <textarea id="shareMessage" rows="5" 
+                        <textarea id="shareMessagePortrait" rows="5" 
                                   placeholder="Message Goes Here" class="pull-center">
                         </textarea>
                     </td>
@@ -107,7 +109,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
                         <img id="shareImageLandscape" class="img-responsive"/>
                     </td>
                     <td rowspan="3" class="table-bordered table-vert-align-middle">
-                        <textarea id="shareMessage" rows="6" 
+                        <textarea id="shareMessageLandscape" rows="6" 
                                   placeholder="Message Goes Here" class="pull-center">
                         </textarea>
                     </td>
@@ -115,10 +117,12 @@ and (-webkit-min-device-pixel-ratio: 2) {
                         <table class="table tabled-bordered table-vert-align-middle">
                             <tr rowspan="3">
                                 <td class="table-bordered">
+                                    <a id="btn-fb-landscape">
                                     <div class="fa-stack fa-2x">
                                         <i class="fa fa-facebook-square fa-stack-2x"></i>
                                         <i class="fa fa-stack-1x" style="color:white"></i>
                                     </div>
+                                    </a>
                                 </td>
                                 <td class="table-bordered">
                                     <div class="fa-stack fa-2x">
