@@ -102,7 +102,10 @@
         
     <preference name="phonegap-version" value="3.7.0" />
     <preference name="orientation" value="default" />
-    <preference name="fullscreen" value="false" /> <!-- remove the upper bar on iOS and Android -->
+    <!-- remove the upper bar on iOS and Android
+         set to false to fix keyboard overlaying 
+         text input field -->
+    <preference name="fullscreen" value="false" /> 
         
     <!-- iOS PREFERENCES -->
     
