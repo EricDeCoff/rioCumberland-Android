@@ -92,5 +92,6 @@ js/pages/share/share.js
 js/utils/pushWooshHandler.js
 js/utils/socialSharingHandler.js
 js/rioBase64.js
+js/utils/mobileOrientation.js
 js/utils/mobileShare.js
 js/app.js
